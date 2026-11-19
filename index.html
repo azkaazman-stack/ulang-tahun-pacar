@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f5">
+  <title>Untuk Kamu, Sayang 💗</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="floating-hearts" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home">♡ our little day</a>
+    <button class="music-btn" id="musicToggle" type="button" aria-label="Putar musik">♫ <span>Putar musik</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="eyebrow">A SPECIAL DAY FOR SOMEONE SPECIAL</div>
+      <div class="hero-heart">♡</div>
+      <h1>Happy Birthday,<br><span id="partnerName">My Love</span>!</h1>
+      <p class="hero-copy">Hari ini dunia merayakan seseorang yang begitu berarti untukku.</p>
+      <a class="primary-btn" href="#surprise">Buka kejutan kecil <span>↓</span></a>
+      <div class="scroll-note">SCROLL TO FEEL THE LOVE</div>
+    </section>
+
+    <section class="section letter-section" id="surprise">
+      <div class="section-kicker">A LETTER FROM MY HEART</div>
+      <h2>A little love note <span>💌</span></h2>
+      <p class="section-intro">Ada sesuatu yang ingin aku sampaikan di hari spesialmu.</p>
+      <article class="letter-card">
+        <div class="letter-stamp">♡</div>
+        <p class="letter-greeting">Untuk kamu, orang tersayangku,</p>
+        <p>Selamat ulang tahun, sayang. Terima kasih sudah hadir dan membuat hari-hariku terasa lebih berwarna. Semoga setiap langkahmu dipenuhi hal-hal baik, kesehatan, kebahagiaan, dan semua impian yang perlahan menjadi nyata.</p>
+        <p>Aku mungkin tidak selalu punya kata-kata yang sempurna, tapi aku ingin kamu tahu bahwa kamu sangat berarti. Semoga kita bisa terus menciptakan banyak cerita indah bersama.</p>
+        <p class="letter-sign">With all my love, <span>♡</span></p>
+      </article>
+    </section>
+
+    <section class="section gallery-section" id="memories">
+      <div class="section-kicker">LITTLE MOMENTS, BIG MEMORIES</div>
+      <h2>Our sweet memories <span>📸</span></h2>
+      <p class="section-intro">Beberapa potongan cerita yang selalu ingin aku simpan.</p>
+      <div class="gallery">
+        <figure class="photo-card">
+          <img src="images/foto-1.jpg.jpeg" alt="Kenangan pertama" onerror="this.src='https://placehold.co/700x850/ffe1eb/c05b7b?text=Tambahkan+foto-1.jpg'">
+          <figcaption><span>01</span> A moment to remember</figcaption>
+        </figure>
+        <figure class="photo-card photo-card-offset">
+          <img src="images/foto-2.jpg.jpeg" alt="Kenangan kedua" onerror="this.src='https://placehold.co/700x850/f9d7e4/c05b7b?text=Tambahkan+foto-2.jpg'">
+          <figcaption><span>02</span> My favorite smile</figcaption>
+        </figure>
+        <figure class="photo-card">
+          <img src="images/foto-3.jpg.jpeg" alt="Kenangan ketiga" onerror="this.src='https://placehold.co/700x850/ffe8ef/c05b7b?text=Tambahkan+foto-3.jpg'">
+          <figcaption><span>03</span> Just us being us</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section cake-section" id="cake">
+      <div class="section-kicker">MAKE A WISH</div>
+      <h2>A cake just for you <span>🎂</span></h2>
+      <p class="section-intro">Ketuk lilinnya untuk meniup api, lalu buat satu harapan terbaikmu.</p>
+      <div class="cake-wrap">
+        <div class="candles" id="candles" aria-label="Lilin ulang tahun">
+          <button class="candle" type="button" aria-label="Tiup lilin"><i class="flame"></i><i class="wick"></i></button>
+          <button class="candle" type="button" aria-label="Tiup lilin"><i class="flame"></i><i class="wick"></i></button>
+          <button class="candle" type="button" aria-label="Tiup lilin"><i class="flame"></i><i class="wick"></i></button>
+        </div>
+        <div class="cake">
+          <div class="icing"></div><div class="sprinkles"></div>
+          <div class="cake-layer layer-top"></div><div class="cake-layer layer-bottom"></div>
+          <div class="plate"></div>
+        </div>
+      </div>
+      <p class="cake-message" id="cakeMessage">Tiga lilin, tiga harapan, dan doa terbaik dariku untukmu. 💗</p>
+      <button class="primary-btn" id="relight" type="button">Nyalakan lilin lagi</button>
+    </section>
+
+    <section class="final-section section">
+      <div class="final-sparkle">✦</div>
+      <div class="section-kicker">ONE LAST THING</div>
+      <h2>You're loved<br>more than you know.</h2>
+      <p>Semoga tahun ini menjadi bab paling indah dalam cerita hidupmu.</p>
+      <button class="surprise-btn" id="confettiBtn" type="button">Kirim peluk dan confetti! 💗</button>
+      <div class="final-heart">♡</div>
+    </section>
+  </main>
+
+  <footer>Made with <span>♥</span>, just for you.</footer>
+
+  <audio id="birthdayMusic" src="music/lagu.mp3.mp3" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
