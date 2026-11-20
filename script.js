@@ -1,5 +1,5 @@
 // GANTI NAMA DI BAWAH INI DENGAN NAMA PANGGILAN PASANGANMU
-const namaPasangan = "Sayangku Alisya Nuryanti";
+const namaPasangan = "Sayang";
 document.getElementById("partnerName").textContent = namaPasangan;
 
 // Musik hanya akan diputar setelah tombol disentuh (aturan browser).
